@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Word Generator</title>
+</head>
+<div class="container-fluid">
+<body>
+    <h1>Random Word (attempt #{{request.session.counter}} )</h1>
+    <h3><span class="border border=dark">{{random_string}}</h3><span>
+    <a class="btn btn-primary" href="/">Generator</a>
+    <a class="btn btn-primary" href="/reset">Reset</a>
+</div>
+</body>
+</html>
